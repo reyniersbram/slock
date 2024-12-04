@@ -5,12 +5,14 @@ My personal slock configuration.
 ## Wow, did I write all that myself?
 
 Of course not! This project is based on patches from the suckless community 
-which can be found at [suckless.org](https://tools.suckless.org/slock/patches/).
+which can be found at [suckless.org](https://tools.suckless.org/slock/patches/). 
+I modified some of these patches to better suit my needs.
 
 ### Patches
 
 | url | description |
 | --- | --- |
+| [slock-pam_auth](https://tools.suckless.org/slock/patches/pam_auth/slock-pam_auth-20190207-35633d4.diff) | Use PAM for authentication |
 
 ## Installation
 
