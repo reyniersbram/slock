@@ -1,0 +1,16 @@
+--- .git/config	2024-11-20 10:15:28.097286673 +0100
++++ .git/config	2024-11-20 10:12:19.073161977 +0100
+@@ -6,6 +6,11 @@
+ [remote "origin"]
+ 	url = git@github.com:reyniersbram/slock.git
+ 	fetch = +refs/heads/*:refs/remotes/origin/*
++[remote "upstream"]
++    url = https://git.suckless.org/slock
++    fetch = +refs/heads/*:refs/remotes/upstream/*
++[remote]
++    pushDefault = origin
+ [branch "main"]
+-	remote = origin
+-	merge = refs/heads/main
++    remote = upstream
++    merge = refs/heads/master
