@@ -13,6 +13,7 @@ I modified some of these patches to better suit my needs.
 | url | description |
 | --- | --- |
 | [slock-pam_auth](https://tools.suckless.org/slock/patches/pam_auth/slock-pam_auth-20190207-35633d4.diff) | Use PAM for authentication |
+| [slock-xresources](https://tools.suckless.org/slock/patches/xresources/slock-xresources-20191126-53e56c7.diff) | Load configuration values from `.Xresources` |
 
 ## Installation
 
